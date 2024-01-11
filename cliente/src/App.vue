@@ -1,13 +1,12 @@
 <script setup>
   import Navbar from './components/Navbar.vue';
+import Sidebar from './components/Sidebar.vue';
 </script>
 
 <template>
   <div id="app">
       <Navbar/>
-    <div>
-      
-    </div>
+      <Sidebar/>
   </div>
 </template>
 
