@@ -1,7 +1,7 @@
 <script setup>
   import Navbar from './components/Navbar.vue';
   import Sidebar from './components/Sidebar.vue';
-  import BodyContent from './components/BodyContent.vue'
+  
 </script>
 
 <template>
@@ -12,7 +12,10 @@
           <Sidebar/>
         </div>
         <div class="col">
-          <BodyContent/>
+          <!-- <BodyContent/> -->
+          <router-view>
+            
+          </router-view>
         </div>
       </div>
   </div>
