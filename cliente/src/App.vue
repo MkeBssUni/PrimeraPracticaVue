@@ -1,7 +1,6 @@
 <script setup>
   import Navbar from './components/Navbar.vue';
   import Sidebar from './components/Sidebar.vue';
-  import Carousesel from './components/Caroussel.vue'
   import BodyContent from './components/BodyContent.vue'
 </script>
 
@@ -21,6 +20,6 @@
 
 <style scoped>
 #app{
-  background-color: #a2a2a2;
+  background-color: #f2f2f2;
 }
 </style>
